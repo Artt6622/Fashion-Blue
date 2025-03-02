@@ -1,0 +1,783 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 71, 171);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoname {
+	width: 10%;
+	height: 50px;
+/*	border: 1px solid red;
+*/	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menubox {
+	width: 7%;
+	height: 50px;
+/*	border: 1px solid red;
+*/	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logotext {
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.aside {
+	width: 100%;
+	height: 670px;
+	background-color: rgb(64, 64, 146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.ph1 {
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	left: 20%;
+}
+.yellowblue1 {
+   width: 300px;
+   height: 400px;
+   background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+   position: absolute;
+   left: 30%;
+   top: 10%;
+}
+.ph2 {
+  width: 400px;
+  height: 400px;
+  background-image: url(images/bluegirl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+}
+.divyellow {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(199, 199, 87);
+	transform: scale(1.7) rotate(131deg) skew(60deg, -6deg);
+	position: relative;
+	left: 10%;
+	top: 40%;
+}
+.article {
+	width: 100%;
+	height: 610px;
+	background-color: rgb(64, 64, 146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.yellowblue2 {
+	width: 300px;
+	height: 600px;
+	background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+	position: absolute;
+	left: 30%;
+	bottom: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+ }
+ .bluediv {
+	width: 320px;
+	height: 350px;
+	background-color: #100d47;
+	position: absolute;
+	bottom: 50%;
+	left: 47%;
+ }
+.ph3 {
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	left: 49%;
+	top: 1%;
+}
+.yellowsmalldiv1 {
+	width: 20%;
+	height: 70px;
+	background-color: rgb(179, 164, 71);
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section {
+	width: 100%;
+	height: 400px;
+	background-color: rgb(64, 64, 146);
+    position: relative;
+	display: flex;
+	align-items: center;
+}
+.ph4 {
+	width: 900px;
+	height: 450px;
+	position: absolute;
+	bottom: 30%;
+	left: 20%;
+}
+.yellowblue3 {
+	width: 500px;
+	height: 550px;
+	background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+	position: absolute;
+	bottom: 20%;
+	left: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bluedivbig {
+	width: 850px;
+	height: 400px;
+	background-color: #4141A7;
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	left: 20%;
+	bottom: 35%;
+}
+.textbox {
+	width: 50%;
+	height: 400px;
+	/* border: 1px solid red; */
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.turtle {
+	color: rgb(249, 249, 249);
+	font-size: 35px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+.spanbox {
+	color: rgb(255, 255, 255);
+}
+.btn1 {
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	background-color: #4141A7;
+}
+.ph5 {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 23%;
+	bottom: 30%;
+}
+.content {
+	width: 100%;
+	height: 600px;
+	background-color: rgb(64, 64, 146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ph6 {
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	bottom: 30%;
+	left: 25%;
+}
+.bluedivsmall {
+	width: 400px;
+	height: 400px;
+	background-color: #4141A7;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+}
+.ph7 {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 58%;
+	top: 20%;
+}
+.yellowsmalldiv2 {
+	width: 20%;
+	height: 70px;
+	background-color: rgb(179, 164, 71);
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 65%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.yellowblue4 {
+	width: 300px;
+	height: 400px;
+	background-color: rgb(179, 164, 71);
+	color: white;
+	padding: 20px 20px;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.btn2 {
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	background-color: rgb(179, 164, 71);
+}
+.main {
+	width: 100%;
+	height: 500px;
+	background-color: rgb(64,64,146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bluedivsmall1 {
+	width: 50%;
+	height: 300px;
+	background-color: #272746;
+	position: absolute;
+	left: 8%;
+}
+.ph8 {
+	width: 20%;
+	height: 300px;
+	position: absolute;
+	bottom: 30%;
+	left: 10%;
+}
+.ph9 {
+	width: 20%;
+	height: 400px;
+	position: absolute;
+	left: 33%;
+}
+.boxtext {
+	width: 17%;
+	height: 300px;
+	/* border: 1px solid red; */
+	position: absolute;
+	padding: 40px 40px;
+	left: 60%;
+}
+.textturtlebig {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+.text {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+.boxblack {
+	width: 100%;
+	height: 430px;
+	background-color: rgb(0,0,0);
+	display: flex;
+	position: relative;
+}
+.ph10 {
+	width: 40%;
+	height: 425px;
+	position: absolute;
+	left: 60%;
+}
+.ph11 {
+	width: 30%;
+	height: 300px;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+.yellowsmalldiv3 {
+	width: 30%;
+	height: 200px;
+	background-color:  rgb(179, 164, 71);
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+.bluedivbig1 {
+	width: 30%;
+	height: 200px;
+	background-color: rgb(64, 64, 146);
+	position: absolute;
+	top: 25%;
+	left: 22%;
+}
+.spanbox1 {
+	width: 70%;
+	height: 50px;
+	/* border: 1px solid red; */
+	padding: 20px 20px;
+}
+.spanbox2 {
+	width: 90%;
+	height: 50px;
+	/* border: 1px solid red; */
+	padding: 20px 20px;
+}
+.span1 {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+.span2 {
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+.footer {
+	width: 100%;
+	height: 750px;
+	background-color: rgb(64,64,146);
+	display: flex;
+	position: relative;
+}
+.ph12 {
+	width: 30%;
+	height: 370px;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+}
+.bluedivbig2 {
+	width: 30%;
+	height: 400px;
+	background-color: rgb(50, 50, 103);
+	position: absolute;
+	top: 2%;
+	left: 22%;
+}
+.ph13 {
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	bottom: 50%;
+	left: 20%;
+}
+.yellowblue5 {
+	width: 370px;
+	height: 400px;
+ 	background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+	color: white;
+	padding: 20px 20px;
+	position: absolute;
+	top: 10%;
+	left: 57%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.btn3 {
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	background-color: #4141A7;
+}
+.footerbox {
+	width: 22%;
+	height: 150px;
+	/* border: 1px solid red; */
+	padding: 20px 20px;
+	position: absolute;
+	top: 65%;
+	left: 20%;
+}
+.spanboxfooter {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+
+
+/* Media */
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .logoname {
+	width: 30%;
+	height: 50px;
+/*	border: 1px solid red;
+*/	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menubox {
+	width: 15%;
+	height: 50px;
+/*	border: 1px solid red;
+*/	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aside {
+	width: 100%;
+	height: 357px;
+	background-color: rgb(64, 64, 146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.ph1 {
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	left: 30%;
+	top: 5%;
+}
+.yellowblue1 {
+   width: 100px;
+   height: 100px;
+   background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+   position: absolute;
+   left: 40%;
+   top: 10%;
+}
+.ph2 {
+  width: 100px;
+  height: 100px;
+  background-image: url(images/bluegirl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 40%;
+  top: 45%;
+}
+.divyellow {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(199, 199, 87);
+	transform: scale(1.7) rotate(131deg) skew(60deg, -6deg);
+	position: relative;
+	left: 10%;
+	top: 60%;
+}
+.yellowblue2 {
+    width: 200px;
+	height: 500px;
+	background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.bluediv {
+	display: none;
+}
+.ph3 {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 30%;
+	top: 60%;
+}
+.yellowsmalldiv1 {
+	width: 41%;
+	height: 70px;
+	background-color: rgb(179, 164, 71);
+	color: white;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section {
+	width: 100%;
+	height: 388px;
+	background-color: rgb(64, 64, 146);
+    position: relative;
+	display: flex;
+	align-items: center;
+}
+.ph4 {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	left: 20%;
+}
+.yellowblue3 {
+	width: 380px;
+	height: 250px;
+	background-image: linear-gradient(0deg,#4141A7 10%,hsl(52deg 43% 49%) 80%,hsl(55deg 100% 50%) 100%);
+	position: absolute;
+	bottom: 20%;
+	left: 11%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bluedivbig {
+	width: 350px;
+	height: 400px;
+	background-color: #4141A7;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	left: 14%;
+	bottom: 5%;
+}
+.ph5 {
+	display: none;
+}
+.content {
+	width: 100%;
+	height: 492px;
+	background-color: rgb(64, 64, 146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ph6 {
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	bottom: 10%;
+	left: 15%;
+}
+.bluedivsmall {
+	 width: 60%;
+	height: 350px;
+	background-color: #4141A7;
+	position: absolute;
+	left: 20%;
+	top: 14%; 
+	/* display: none; */
+}
+.ph7 {
+	width: 55%;
+	height: 340px;
+	position: absolute;
+	left: 23%;
+	top: 15%; 
+	/* display: none; */
+}
+.yellowsmalldiv2 {
+	display: none;
+}
+.yellowblue4 {
+	display: none;
+}
+.main {
+	width: 100%;
+	height: 400px;
+	background-color: rgb(64,64,146);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bluedivsmall1 {
+	width: 70%;
+	height: 370px;
+	background-color: #272746;
+	position: absolute;
+	left: 15%;
+}
+.ph8 {
+	 width: 70%;
+	height: 200px;
+	position: absolute;
+	bottom: 50%;
+	left: 15%; 
+}
+.ph9 {
+	display: none;
+}
+.boxtext {
+	width: 45%;
+	height: 155px;
+	/* border: 1px solid red; */
+	position: absolute;
+	padding: 40px 40px;
+	left: 20%;
+	top: 24%;
+	animation-name: textbox;
+    animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes textbox{
+	from {
+		top: 24%;
+	}
+	to {
+		top: 38%;
+	}
+}
+.textturtlebig {
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+.text {
+	 color: rgb(255, 255, 255);
+	font-size: 10px; 
+}
+.ph10 {
+	display: none;
+}
+.ph11 {
+	width: 70%;
+	height: 380px;
+	position: absolute;
+	top: 7%;
+	left: 16%;
+	/* display: none; */
+}
+.yellowsmalldiv3 {
+	 width: 35%;
+	height: 250px;
+	background-color:  rgb(179, 164, 71);
+	position: absolute;
+	top: 25%;
+	left: 25%; 
+}
+.bluedivbig1 {
+	width: 35%;
+	height: 250px;
+	background-color: rgb(64, 64, 146);
+	position: absolute;
+	top: 15%;
+	left: 22%;
+}
+.spanbox1 {
+	width: 90%;
+	height: 50px;
+	/* border: 1px solid red; */
+	padding: 20px 20px;
+}
+.spanbox2 {
+	width: 90%;
+	height: 50px;
+	/* border: 1px solid red; */
+	padding: 20px 14px; 
+}
+.span1 {
+	 font-size: 10px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic; 
+}
+.span2 {
+	 font-size: 7px;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic; 
+}
+.footer {
+	width: 100%;
+	height: 400px;
+	background-color: rgb(64,64,146);
+	display: flex;
+	position: relative;
+}
+.ph12 {
+	width: 80%;
+	height: 300px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.bluedivbig2 {
+	 width: 70%;
+	height: 230px;
+	background-color: rgb(50, 50, 103);
+	position: absolute;
+	top: 19%;
+	left: 15%; 
+	/* display: none; */
+}
+.ph13 {
+    width: 150px;
+	height: 200px;
+	position: absolute;
+	top: 22%;
+	left: 20%; 
+}
+.yellowblue5 {
+	display: none;
+}
+.btn3 {
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	background-color: #4141A7;
+}
+.footerbox {
+	 width: 31%;
+	height: 150px;
+	/* border: 1px solid red; */
+	padding: 40px 40px;
+	position: absolute;
+	left: 45%;
+	animation-name: footerbox;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes footerbox{
+	from {
+		top: 5%;
+	}
+	to {
+		top: 16%;
+	}
+}
+.spanboxfooter {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
